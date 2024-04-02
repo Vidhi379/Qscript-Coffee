@@ -1,75 +1,3 @@
-// import React from "react";
-// import { Container, Form, Row, Col, Button } from "react-bootstrap";
-// import "./styles.css"; // Import your CSS file for styling if needed
-
-// const ContactUs = () => {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Handle form submission logic here
-//   };
-
-//   return (
-//     <section id="contact" className="contact-us-section">
-//       <Container>
-//         <h2 className="section-title">Contact Us</h2>
-//         <Row>
-//           <Col md={6}>
-//             <Form className="pt-2" onSubmit={handleSubmit}>
-//               <Form.Group controlId="formName">
-//                 <Form.Label>
-//                   Name <span className="required">*</span>
-//                 </Form.Label>
-//                 <Form.Control
-//                   required
-//                   type="text"
-//                   placeholder="Enter your name"
-//                 />
-//               </Form.Group>
-//               <Form.Group controlId="formEmail">
-//                 <Form.Label>
-//                   Email <span className="required">*</span>
-//                 </Form.Label>
-//                 <Form.Control
-//                   required
-//                   type="email"
-//                   placeholder="Enter your email"
-//                 />
-//               </Form.Group>
-//               <Form.Group controlId="formMessage">
-//                 <Form.Label>Message</Form.Label>
-//                 <Form.Control
-//                   as="textarea"
-//                   rows={4}
-//                   placeholder="Enter your message"
-//                 />
-//               </Form.Group>
-//               {/* Optional: Add more form fields like phone number */}
-//               {/* Optional: Add a map location */}
-//               <Button variant="primary" type="submit">
-//                 Submit
-//               </Button>
-//             </Form>
-//           </Col>
-//           <Col md={6}>
-//             <div className="google-map">
-//               <iframe
-//                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.926970815046!2d75.95167357453906!3d12.454584326003665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5091e9240229b%3A0xc5c926abac438a80!2sQscript%20Software%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1711994869517!5m2!1sen!2sin"
-//                 width="600"
-//                 height="450"
-//                 allowfullscreen=""
-//                 loading="lazy"
-//                 title="QScript Coffee Location"
-//                 referrerpolicy="no-referrer-when-downgrade"
-//               />
-//             </div>
-//           </Col>
-//         </Row>
-//       </Container>
-//     </section>
-//   );
-// };
-
-// export default ContactUs;
 import React, { useState } from "react";
 import { Container, Form, Row, Col, Button, Alert } from "react-bootstrap";
 import "./styles.css"; // Import your CSS file for styling if needed
@@ -110,7 +38,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="contact-us-section">
+    <section id="contact" className="contact-us-section">
       <Container>
         <h2 className="section-title">Contact Us</h2>
         <Row>
