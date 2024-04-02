@@ -1,0 +1,13 @@
+.about-us-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.section-description {
+    font-size: 1rem;
+    text-align: center;
+    color: #444;
+    max-width: 750px;
+    margin: 0 auto 1rem;
+    line-height: 1.5;
+}

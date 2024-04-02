@@ -1,0 +1,49 @@
+.menu-section {
+    padding: 50px 0;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    /* Add a smooth transition effect on hover */
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    /* Lift the card slightly on hover */
+}
+
+.menu-item .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    /* Set the title color */
+}
+
+.menu-item .card-text {
+    color: #666;
+    /* Set the description color */
+}
+
+.card-body {
+    min-height: 189px;
+}
+
+.card-img {
+    height: 220px;
+    object-fit: cover;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .menu-item .card-title{
+      font-size: 1.25rem;
+    }
+  }

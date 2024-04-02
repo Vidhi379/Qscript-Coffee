@@ -1,0 +1,50 @@
+.contact-us-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.required {
+    color: red;
+}
+
+.google-map {
+    margin-top: 20px;
+}
+
+.google-map iframe {
+    border-radius: 4px;
+    width: 100%;
+}
